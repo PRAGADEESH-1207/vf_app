@@ -1,6 +1,6 @@
 import streamlit as st
 import requests
-
+from bs4 import Beautifulsoup
 import numpy as np
 import tensorflow as tf
 import pandas as pd
