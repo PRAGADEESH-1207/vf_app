@@ -72,7 +72,6 @@ elif app_mode == "Prediction":
             content = f.readlines()
         labels = [i.strip() for i in content]
         predicted_item = labels[result_index]
-
         st.success("Model is Predicting it's a {}".format(predicted_item))
 
         # Scrape market prices
